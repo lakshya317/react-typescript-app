@@ -50,7 +50,4 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.PAT }}
-          repository-name: lakshya31/lakshya31.github.io
-          branch: master
           folder: 'site'
