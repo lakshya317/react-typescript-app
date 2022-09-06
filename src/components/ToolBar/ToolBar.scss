@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+
+.light{
+    .toolbar{
+        background-color: $gray-300;
+        border-bottom: 2px solid $gray-500;
+        box-shadow: 0 4px 4px -4px $gray-400;
+    }
+}
+
+.dark{
+    .toolbar{
+        background-color: $gray-900;
+        border-bottom: 2px solid black;
+        box-shadow: 0 4px 4px -4px $gray-700;
+    }
+}
+
+.toolbar{
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shell-logo-container{
+    padding: 10px;
+}
+
+.shell-logo{
+    height: 40px;
+}
