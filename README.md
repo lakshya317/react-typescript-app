@@ -1,4 +1,4 @@
-[![Continuous Deployment](https://github.com/lakshya317/react-typescript-app/actions/workflows/Continuous_Deployment.yml/badge.svg)](https://github.com/lakshya317/react-typescript-app/actions/workflows/Continuous_Deployment.yml)    [![pages-build-deployment](https://github.com/lakshya317/react-typescript-app/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/lakshya317/react-typescript-app/actions/workflows/pages/pages-build-deployment)
+[![Continuous Deployment](https://github.com/lakshya317/react-typescript-app/actions/workflows/Continuous_Deployment.yml/badge.svg)](https://github.com/lakshya317/react-typescript-app/actions/workflows/Continuous_Deployment.yml) [![pages-build-deployment](https://github.com/lakshya317/react-typescript-app/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/lakshya317/react-typescript-app/actions/workflows/pages/pages-build-deployment)
 
 # Getting Started with Create React App
 
