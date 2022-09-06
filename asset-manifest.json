@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-typescript-app/static/css/main.073c9b0a.css",
-    "main.js": "/react-typescript-app/static/js/main.6a0514a4.js",
-    "static/js/787.6bde3dcb.chunk.js": "/react-typescript-app/static/js/787.6bde3dcb.chunk.js",
-    "static/media/logo.svg": "/react-typescript-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-typescript-app/static/css/main.afbec5fc.css",
+    "main.js": "/react-typescript-app/static/js/main.3125658b.js",
+    "static/media/Shell_Logo.png": "/react-typescript-app/static/media/Shell_Logo.2328ff2cab8042125fdb.png",
+    "static/media/moon.png": "/react-typescript-app/static/media/moon.8129ab9835404e1ce67b.png",
+    "static/media/sun.png": "/react-typescript-app/static/media/sun.f794832ad72b90c61eb7.png",
     "index.html": "/react-typescript-app/index.html",
-    "main.073c9b0a.css.map": "/react-typescript-app/static/css/main.073c9b0a.css.map",
-    "main.6a0514a4.js.map": "/react-typescript-app/static/js/main.6a0514a4.js.map",
-    "787.6bde3dcb.chunk.js.map": "/react-typescript-app/static/js/787.6bde3dcb.chunk.js.map"
+    "main.afbec5fc.css.map": "/react-typescript-app/static/css/main.afbec5fc.css.map",
+    "main.3125658b.js.map": "/react-typescript-app/static/js/main.3125658b.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6a0514a4.js"
+    "static/css/main.afbec5fc.css",
+    "static/js/main.3125658b.js"
   ]
 }
