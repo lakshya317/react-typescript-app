@@ -11,7 +11,7 @@ export const ThemeProvider: React.FC<PropsWithChildren> = ({ children }) => {
         let localTheme: string | null = window.localStorage.getItem('theme');
 
         if (localTheme) {
-            setTheme(localTheme as themeType)
+            setTheme(localTheme as themeType);
         }
     }, []);
 
