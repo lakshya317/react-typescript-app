@@ -1,0 +1,100 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../assets/styles/customColors";
+
+.cartoon{
+    &-card{
+        display: flex;
+        border-radius: 10px;
+        width: 80%;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    &-image{
+        height:  200px;
+        width: 133px;
+    }
+
+    &-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+
+    &-title{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    &-year{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &-genres{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-genre{
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 20%;
+        margin-right: 5px;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+// Theme Styles
+
+.light{
+    .cartoon-card{
+        background-color: $light-theme-lighter-bg;
+        border: 2px solid $light-theme-border;
+        box-shadow: 0 0 3px 6px $light-theme-shadow;
+    }
+
+    .cartoon-genre{
+        background-color: $light-theme-darker-bg;
+    }
+}
+
+.dark{
+    .cartoon-card{
+        background-color: $dark-theme-darker-bg;
+        border: 2px solid $dark-theme-border;
+        box-shadow: 0 0 3px 3px $dark-theme-shadow;
+    }
+
+    .cartoon-genre{
+        background-color: $dark-theme-lighter-bg;
+    }
+}
+
+
+
+// Media Queries
+
+@media (orientation: landscape) {
+    .cartoon-card{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+@media (orientation: portrait) {
+    .cartoon-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartoon-info{
+        margin: auto;
+    }
+}
