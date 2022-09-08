@@ -7,12 +7,12 @@
         border-radius: 10px;
         width: 80%;
         margin: 20px;
-        padding: 15px;
-    }
+        padding: 15px;transition: transform 0.4s 0s;
 
-    &-image{
-        height:  200px;
-        width: 133px;
+        &:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
     }
 
     &-info{
@@ -20,16 +20,6 @@
         flex-direction: column;
         justify-content: space-around;
         margin-left: 20px;
-    }
-
-    &-title{
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-    &-year{
-        font-size: 12px;
-        font-weight: 500;
     }
 
     &-genres{
@@ -46,9 +36,6 @@
         padding: 5px;
     }
 }
-
-
-
 
 
 // Theme Styles
@@ -82,19 +69,59 @@
 // Media Queries
 
 @media (orientation: landscape) {
-    .cartoon-card{
-        flex-direction: row;
-        justify-content: flex-start;
+    .cartoon{
+        &-card{
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+    
+        &-image{
+            height:  150px;
+            width: 100px;
+        }
+    
+        &-title{
+            font-size: 25px;
+            font-weight: 700;
+        }
+    
+        &-year{
+            font-size: 12px;
+            font-weight: 500;
+        }
     }
 }
 
 @media (orientation: portrait) {
-    .cartoon-card{
-        flex-direction: column;
-        align-items: center;
-    }
+    .cartoon{
+        &-card{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        &-image{
+            height:  100px;
+            width: 67px;
+        }
+    
+        &-info{
+            margin: auto;
+            text-align: center;
+        }
+    
+        &-title{
+            font-size: 15px;
+            font-weight: 600;
+        }
+    
+        &-year{
+            font-size: 10px;
+            font-weight: 500;
+            margin: 5px auto;
+        }
 
-    .cartoon-info{
-        margin: auto;
+        &-genres{
+            justify-content: center;
+        }
     }
 }

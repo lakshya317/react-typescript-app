@@ -29,6 +29,7 @@ const ScrollPage: React.FC<{}> = () => {
                 <img src={React_TS} alt="React Typescript" className="react-ts-logo" />
                 <h1 className="body-title">Welcome to a React App made using TypeScript</h1>
             </div>
+            <h2 className="body-title cartoon-body-header">My Favourite Cartoons:</h2>
             <div className="cartoon-cards">
                 {cartoons.map((cartoon) => {
                     return <CartoonCard key={cartoon.id} cartoon={cartoon} />;
