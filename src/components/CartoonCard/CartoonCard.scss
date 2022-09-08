@@ -47,8 +47,14 @@
     }
 }
 
+.cartoon-card{
+    transition: transform 1s 0s;
 
-
+    &:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+}
 
 
 // Theme Styles
