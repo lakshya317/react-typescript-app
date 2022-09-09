@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Shell Colors
 $shell-red: #DD1D21;
 $shell-yellow: #FBCE07;
@@ -8,7 +10,7 @@ $light-theme-text: $gray-800;
 $light-theme-darker-bg: $gray-300;
 $light-theme-lighter-bg: $gray-100;
 $light-theme-border: $gray-600;
-$light-theme-shadow: $gray-400;
+$light-theme-shadow: color.adjust($gray-400, $alpha: 0.4);
 
 
 // Dark Theme
@@ -17,4 +19,4 @@ $dark-theme-text: $gray-200;
 $dark-theme-darker-bg: $gray-900;
 $dark-theme-lighter-bg: $gray-700;
 $dark-theme-border: $black;
-$dark-theme-shadow: $gray-900;
+$dark-theme-shadow: color.adjust($gray-900, $alpha: 0.4);
