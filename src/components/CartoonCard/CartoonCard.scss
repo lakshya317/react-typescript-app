@@ -2,12 +2,27 @@
 @import "../../assets/styles/customColors";
 
 .cartoon{
+    &-cards{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        pointer-events: none;
+        transition: filter 2s 0s;
+    }
+
+    &-cards:hover &-card:not(:hover){
+        filter: blur(2px);
+    }
+
     &-card{
         display: flex;
         border-radius: 10px;
-        width: 80%;
+        width: 80vw;
         margin: 20px;
-        padding: 15px;transition: transform 0.4s 0s;
+        padding: 15px;
+        transition: transform 0.4s 0s;
+        pointer-events: auto;
 
         &:hover{
             transform: scale(1.1);
@@ -76,8 +91,8 @@
         }
     
         &-image{
-            height:  150px;
-            width: 100px;
+            height:  100px;
+            width: 67px;
         }
     
         &-title{
