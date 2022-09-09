@@ -13,6 +13,7 @@
 
     &-cards:hover &-card:not(:hover){
         filter: blur(2px);
+        transition: filter 0.2s 0s;
     }
 
     &-card{
