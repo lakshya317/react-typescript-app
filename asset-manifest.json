@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-typescript-app/static/css/main.f1cc1c2b.css",
+    "main.css": "/react-typescript-app/static/css/main.5d9eae86.css",
     "main.js": "/react-typescript-app/static/js/main.75bf10b9.js",
     "static/media/React_Typescript_Logo.png": "/react-typescript-app/static/media/React_Typescript_Logo.b60ea8bf817a03988749.png",
     "static/media/Shell_Logo.png": "/react-typescript-app/static/media/Shell_Logo.2328ff2cab8042125fdb.png",
     "static/media/moon.png": "/react-typescript-app/static/media/moon.8129ab9835404e1ce67b.png",
     "static/media/sun.png": "/react-typescript-app/static/media/sun.2810660fdb90edb92ce7.png",
     "index.html": "/react-typescript-app/index.html",
-    "main.f1cc1c2b.css.map": "/react-typescript-app/static/css/main.f1cc1c2b.css.map",
+    "main.5d9eae86.css.map": "/react-typescript-app/static/css/main.5d9eae86.css.map",
     "main.75bf10b9.js.map": "/react-typescript-app/static/js/main.75bf10b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1cc1c2b.css",
+    "static/css/main.5d9eae86.css",
     "static/js/main.75bf10b9.js"
   ]
 }
