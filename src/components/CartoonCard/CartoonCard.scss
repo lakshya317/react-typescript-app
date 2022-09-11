@@ -82,10 +82,10 @@
     .cartoon{
 
         // Blur Other cards on Hover of 1 card
-        &-cards:hover &-card:not(:hover){
-            filter: blur(2px);
-            transition: filter 0.2s 0s;
-        }
+        // &-cards:hover &-card:not(:hover){
+        //     filter: blur(2px);
+        //     transition: filter 0.2s 0s;
+        // }
 
         &-card{
             flex-direction: row;
