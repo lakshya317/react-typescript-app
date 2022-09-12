@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import React_TS from '../../assets/images/React_Typescript_Logo.png';
 import "animate.css/animate.min.css";
 import './ScrollPage.scss';
@@ -14,18 +14,19 @@ interface cartoonType {
     image: string;
 }
 
-const ScrollPage: React.FC<{}> = () => {
-    const cartoons: Array<cartoonType> = cartoonsData.map((cartoon) => {
-        return {
-            id: cartoon.id,
-            title: cartoon.title,
-            year: cartoon.year,
-            genre: cartoon.genre,
-            image: cartoon.image
-        };
-    });
+const cartoons: Array<cartoonType> = cartoonsData.map((cartoon) => {
+    return {
+        id: cartoon.id,
+        title: cartoon.title,
+        year: cartoon.year,
+        genre: cartoon.genre,
+        image: cartoon.image
+    };
+});
 
-    const animations_in = ["animate__fadeInRight", "animate__fadeInLeft"]
+const animations_in = ["animate__fadeInRight", "animate__fadeInLeft"]
+
+const ScrollPage: React.FC<{}> = () => {
 
     return (
         <div className="main-container" id="scroll-parent">
@@ -37,10 +38,10 @@ const ScrollPage: React.FC<{}> = () => {
             <div className="cartoon-cards">
                 {cartoons.map((cartoon) => {
                     return (
-                        <AnimationOnScroll 
+                        <AnimationOnScroll
                             key={cartoon.id}
                             offset={50}
-                            animateIn={animations_in[cartoon.id%2]}
+                            animateIn={animations_in[cartoon.id % 2]}
                             animateOut={"animate__fadeOut"}
                             duration={0.6}
                             scrollableParentSelector='#scroll-parent'
