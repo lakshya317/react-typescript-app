@@ -11,11 +11,6 @@
         transition: filter 2s 0s;
     }
 
-    &-cards:hover &-card:not(:hover){
-        filter: blur(2px);
-        transition: filter 0.2s 0s;
-    }
-
     &-card{
         display: flex;
         border-radius: 10px;
@@ -85,6 +80,13 @@
 
 @media (orientation: landscape) {
     .cartoon{
+
+        // Blur Other cards on Hover of 1 card
+        // &-cards:hover &-card:not(:hover){
+        //     filter: blur(2px);
+        //     transition: filter 0.2s 0s;
+        // }
+
         &-card{
             flex-direction: row;
             justify-content: flex-start;
